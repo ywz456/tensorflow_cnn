@@ -1,0 +1,34 @@
+信息内容如下
+_id:id 无价值
+S_id:地震编号（每张表中编号相对独立，无关联）
+Type:类型(["逆冲型","正断型","走滑型","其他类型"])
+CMT event name:事件名称(暂未发现实质意义)
+Geographical location:地理位置
+Date:日期
+Lat:维度
+Lon:经度
+Depth:震源深度
+time minus hypocenter time:发震时间与震源时间的时间差
+centroid depth:震源深度
+Half duration:半衰期
+Moment tensor:矩张量(地震矩张量，地震学术语，地震矩的张量表示形式，它取决于震源的方向和强度。用地震矩张量可将震源表示为膨胀源、剪切位错源和补偿线性向量偶极三部分之和。
+              详解:http://www.baike.com/wiki/%E5%9C%B0%E9%9C%87%E7%9F%A9%E5%BC%A0%E9%87%8F)
+    Expo:矩张量指数
+    Mrr:一个数据变量名，无专业解释
+    Mtt:一个数据变量名，无专业解释
+    Mpp:一个数据变量名，无专业解释
+    Mrt:一个数据变量名，无专业解释
+    Mrp:一个数据变量名，无专业解释
+    Mtp:一个数据变量名，无专业解释
+Mw:矩震级
+mb:体波震级
+Ms:面波震级
+Scalar Moment:静力矩
+Fault plane:主节面信息
+    strike:主节面走向
+    dip:主节面倾向
+    slip:主节面滑动角
+Fault plane1:次节面信息
+    strike:次节面走向
+    dip:次节面倾向
+    slip:次节面滑动角
